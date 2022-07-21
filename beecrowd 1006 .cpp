@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+  double A,B,C,MEDIA;
+    cin>>A>>B>>C;
+    MEDIA = ((A*3.5)+(B*7.5))/(3.5+7.5);
+    cout<<"MEDIA = "<<fixed<<setprecision(5)<<MEDIA<<"\n";
+    return 0 ;
+
+}
